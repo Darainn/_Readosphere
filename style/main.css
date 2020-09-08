@@ -1,0 +1,150 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100px;
+    background-size: cover;
+    font: x-large;
+    overflow-x: hidden;
+}
+
+.total-bg-container{
+    background-image: url("/static/books/style/crystal.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 120vh;
+}
+
+.bg-image-container {
+    background-image: url("/static/books/style/crystal.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 120vh;
+    display: flex;
+    flex-direction: column;
+    color: rgb(61, 61, 61);
+}
+
+.header-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-container {
+    background-color: rgb(61, 61, 61);
+    font-size: large;
+    align-self: flex-end;
+    padding: 5px 0px;
+    width: 100%;
+    height: 100%;
+}
+
+.nav-container a {
+    color: white;
+    margin: 0px;
+    text-decoration: none;
+    padding: 7px 10px;
+}
+
+.nav-container a:hover {
+    background-color: rgba(248, 247, 216, 0.3);
+}
+
+.title-container {
+    margin-left: 2%;
+    font-size: large;
+}
+
+.title-container-sub {
+    margin-left: 2%;
+}
+
+.title-container-sub p {
+    max-width: 100%;
+    flex-wrap: wrap;
+    font-size: 20px;
+}
+
+.border-container {
+    border-width: 5px;
+    border-style: double;
+    margin-top: 1%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 2%;
+    padding: 5px;
+    background-color: rgba(248, 247, 216, 0.3);
+}
+
+.border-container:hover {
+    transform: scale(1.05, 1.05);
+    -webkit-transform: scale(1.05, 1.05);
+    -moz-transform: scale(1.05, 1.05);
+}
+
+.main-container {
+    display: flex;
+    flex-direction: row;
+    font-size: medium;
+}
+
+.book-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.img-container img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.book-button{
+    bottom: 2%;
+}
+
+.book-button a{
+    text-decoration: none;
+    color: rgb(61, 61, 61);
+}
+
+.list-bg-container{
+        background-image: url("/static/books/style/crystal.jpg");
+        background-repeat: repeat;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        color: rgb(61, 61, 61);
+}
+
+.list-enabled{
+    display: flex;
+    flex-direction: row;
+}
+
+.list-enabled:hover{
+    transform: scale(1.00, 1.00);
+    -webkit-transform: scale(1.00, 1.00);
+    -moz-transform: scale(1.00, 1.00);
+}
+
+.list-enabled p{
+    margin-right: 2%;
+    margin-left: 2%;
+}
+
+.list-enabled img{
+    width: 15%;
+    height: 15%;
+    object-fit: cover;
+}
+
+.footer-container {
+    background-color: rgb(61, 61, 61);
+    color: white;
+    padding-top: 0px;
+    font-size: medium;
+    flex: 1;
+}
